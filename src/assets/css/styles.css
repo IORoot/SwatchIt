@@ -3,3 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .svg-inherit path {fill:inherit;stroke:inherit;}
+}

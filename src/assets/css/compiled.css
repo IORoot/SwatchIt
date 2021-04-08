@@ -24128,6 +24128,14 @@ video {
   fill: currentColor;
 }
 
+.fill-swatchit-blue {
+  fill: #3B82F6;
+}
+
+.fill-swatchit-salmon {
+  fill: #B76D68;
+}
+
 .stroke-current {
   stroke: currentColor;
 }
@@ -31175,6 +31183,11 @@ video {
 .animate-bounce {
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
+}
+
+.svg-inherit path {
+  fill:inherit;
+  stroke:inherit;
 }
 
 @media (min-width: 640px) {
@@ -54738,6 +54751,14 @@ video {
 
   .sm\:fill-current {
     fill: currentColor;
+  }
+
+  .sm\:fill-swatchit-blue {
+    fill: #3B82F6;
+  }
+
+  .sm\:fill-swatchit-salmon {
+    fill: #B76D68;
   }
 
   .sm\:stroke-current {
@@ -85287,6 +85308,14 @@ video {
     fill: currentColor;
   }
 
+  .md\:fill-swatchit-blue {
+    fill: #3B82F6;
+  }
+
+  .md\:fill-swatchit-salmon {
+    fill: #B76D68;
+  }
+
   .md\:stroke-current {
     stroke: currentColor;
   }
@@ -115832,6 +115861,14 @@ video {
 
   .lg\:fill-current {
     fill: currentColor;
+  }
+
+  .lg\:fill-swatchit-blue {
+    fill: #3B82F6;
+  }
+
+  .lg\:fill-swatchit-salmon {
+    fill: #B76D68;
   }
 
   .lg\:stroke-current {
@@ -146381,6 +146418,14 @@ video {
     fill: currentColor;
   }
 
+  .xl\:fill-swatchit-blue {
+    fill: #3B82F6;
+  }
+
+  .xl\:fill-swatchit-salmon {
+    fill: #B76D68;
+  }
+
   .xl\:stroke-current {
     stroke: currentColor;
   }
@@ -176928,6 +176973,14 @@ video {
     fill: currentColor;
   }
 
+  .\32xl\:fill-swatchit-blue {
+    fill: #3B82F6;
+  }
+
+  .\32xl\:fill-swatchit-salmon {
+    fill: #B76D68;
+  }
+
   .\32xl\:stroke-current {
     stroke: currentColor;
   }
@@ -183911,4 +183964,3 @@ video {
             animation: bounce 1s infinite;
   }
 }
-
